@@ -7,12 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TurnPlateListModel.h"
 
 @interface TurnPlateView : UIView
 
--(void)setMsg:(NSDictionary *)dict;
-
--(void)setupPrize:(NSMutableArray *)arr;
+-(void)setupPrize;
 
 @end

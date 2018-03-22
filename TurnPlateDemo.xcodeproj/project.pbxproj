@@ -15,6 +15,7 @@
 		84C6FFC4201F06A700B53AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6FFC3201F06A700B53AAE /* main.m */; };
 		84C6FFCE201F06A800B53AAE /* TurnPlateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6FFCD201F06A800B53AAE /* TurnPlateDemoTests.m */; };
 		84C6FFD9201F06A800B53AAE /* TurnPlateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6FFD8201F06A800B53AAE /* TurnPlateDemoUITests.m */; };
+		84C6FFEC201F06E500B53AAE /* TurnPlateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6FFEA201F06E500B53AAE /* TurnPlateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		84C6FFD4201F06A800B53AAE /* TurnPlateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnPlateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C6FFD8201F06A800B53AAE /* TurnPlateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurnPlateDemoUITests.m; sourceTree = "<group>"; };
 		84C6FFDA201F06A800B53AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C6FFE9201F06E500B53AAE /* TurnPlateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnPlateView.h; sourceTree = "<group>"; };
+		84C6FFEA201F06E500B53AAE /* TurnPlateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurnPlateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		84C6FFB3201F06A700B53AAE /* TurnPlateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84C6FFE6201F06D500B53AAE /* TurnPlate */,
 				84C6FFB4201F06A700B53AAE /* AppDelegate.h */,
 				84C6FFB5201F06A700B53AAE /* AppDelegate.m */,
 				84C6FFB7201F06A700B53AAE /* ViewController.h */,
@@ -130,6 +134,15 @@
 				84C6FFDA201F06A800B53AAE /* Info.plist */,
 			);
 			path = TurnPlateDemoUITests;
+			sourceTree = "<group>";
+		};
+		84C6FFE6201F06D500B53AAE /* TurnPlate */ = {
+			isa = PBXGroup;
+			children = (
+				84C6FFE9201F06E500B53AAE /* TurnPlateView.h */,
+				84C6FFEA201F06E500B53AAE /* TurnPlateView.m */,
+			);
+			path = TurnPlate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				84C6FFB9201F06A700B53AAE /* ViewController.m in Sources */,
 				84C6FFC4201F06A700B53AAE /* main.m in Sources */,
+				84C6FFEC201F06E500B53AAE /* TurnPlateView.m in Sources */,
 				84C6FFB6201F06A700B53AAE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
