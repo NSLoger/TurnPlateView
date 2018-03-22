@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    //转盘
+    //转盘对象
     self.turnPlateView = [[TurnPlateView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
     [self.turnPlateView setupPrize];
     [self.view addSubview:self.turnPlateView];
