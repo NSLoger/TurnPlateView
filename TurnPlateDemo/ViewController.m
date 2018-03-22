@@ -21,6 +21,7 @@
     
     //转盘对象
     //依旧是测试，然而我把上面的删了
+    //现在轮到我删除了
     self.turnPlateView = [[TurnPlateView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
     [self.turnPlateView setupPrize];
     [self.view addSubview:self.turnPlateView];
